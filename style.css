@@ -41,9 +41,9 @@ nav a:hover {
 }
 
 main {
-    max-width: 1300px;
+    max-width: 1500px;
     margin: 40px auto;
-    padding: 0 20px;
+    padding: 0 30px;
 }
 
 .homepage-layout {
@@ -63,14 +63,15 @@ main {
 }
 
 .side-logo {
-    width: 180px;
+    width: 260px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .main-logo {
     width: 100%;
-    max-width: 160px;
+    max-width: 240px;
+    height: auto;
     object-fit: contain;
 }
 
@@ -125,13 +126,17 @@ hr {
 
 @media (max-width: 1000px) {
 
-.homepage-layout {
-    flex-direction: column;
-    align-items: center;
-}
+    .homepage-layout {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.side-logo {
-    margin-top: 0;
-}
+    .side-logo {
+        margin-top: 0;
+    }
+
+    .main-logo {
+        max-width: 220px;
+    }
 
 }
